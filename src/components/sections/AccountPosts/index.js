@@ -37,7 +37,7 @@ const AccountPosts = (props) => {
       }
     }
     // eslint-disable-next-line
-  }, [last, loading, items])
+  }, [last, loading])
 
   useEffect(() => {
     if (items.length < 3 && !loading && isFeedPostsLoaded) {
